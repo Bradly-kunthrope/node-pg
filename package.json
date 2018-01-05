@@ -1,0 +1,22 @@
+{
+  "name": "node-pg",
+  "version": "1.0.0",
+  "description": "node postgres sequelize express 4th trial",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "bradly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^6.0.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.28.7",
+    "sequelize-cli": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
