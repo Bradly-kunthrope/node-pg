@@ -43,6 +43,8 @@ sequelize init //initiate sequelize models, migrations, config for the project
 ```
 sequelize db:create //will create the database specified in the config file
 sequelize db:migrate //should migrate table to postgres database but is not working yet 
+sequelize seed:create --name dummyData //create seed data 
+sequelize db:seed:all //migrate seed data to PostgreSQL database
 npm run dev //run server
 ```
 
